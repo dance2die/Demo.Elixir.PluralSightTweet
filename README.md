@@ -1,6 +1,7 @@
 # PluralsightTweet
 
-**TODO: Add description**
+Learning Elixir from PluralSight.
+https://app.pluralsight.com/library/courses/elixir-getting-started/table-of-contents
 
 ## Installation
 
