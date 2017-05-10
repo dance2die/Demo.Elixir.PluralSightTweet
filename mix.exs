@@ -15,7 +15,7 @@ defmodule PluralsightTweet.Mixfile do
   # Type "mix help compile.app" for more information
   def application do
     # Specify extra applications you'll use from Erlang/Elixir
-    [extra_applications: [:logger, :quantum],
+    [extra_applications: [:logger, :quantum, :extwitter],
      mod: {PluralsightTweet.Application, []}]
   end
 
@@ -31,7 +31,9 @@ defmodule PluralsightTweet.Mixfile do
   defp deps do
     [
       {:credo, "~> 0.4.11"},
-      {:quantum, "~> 1.9"}
+      {:quantum, "~> 1.9"},
+      {:extwitter, "~> 0.8.3"},
+      # {:oauth, github: "tim/erlang-oauth"}
     ]
   end
 end
